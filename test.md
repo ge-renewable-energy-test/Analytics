@@ -24,4 +24,4 @@ The Fleet Operations team believe there are performance issues at the La Haute B
 3. Create a function that can quickly find consistently high outliers for a given attribute. The function should contain the following:
    - Take a dataframe, a selected column string, threshold number and number of record number as parameters
    - Defaults on parameter should be `selected column = Ws_avg`, `threshold number = 10` and `number of records = 400`
-   - Find turbine/s (showing number of recors as well) where selected column in dataframe has been consistently higher than threshold for at least the duration (number of records).
+   - Find turbine/s where selected column in dataframe has been consistently higher than threshold for at least the duration (number of records), providing the number of records as well.
